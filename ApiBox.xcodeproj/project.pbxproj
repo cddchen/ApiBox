@@ -7,21 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC8F8592A837117003575D5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8F8582A837117003575D5 /* ShareViewController.swift */; };
+		6EC8F85C2A837117003575D5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC8F85A2A837117003575D5 /* MainInterface.storyboard */; };
+		6EC8F8602A837117003575D5 /* harFiles.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6EC8F8562A837117003575D5 /* harFiles.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6EC8F8642A837143003575D5 /* ApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAAF2A823968002084B2 /* ApiView.swift */; };
+		6EC8F8652A837146003575D5 /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAAB2A823920002084B2 /* ApiModel.swift */; };
+		6EC8F8662A83716C003575D5 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAA72A8238E8002084B2 /* View+Extension.swift */; };
 		6EF3DA9A2A82381F002084B2 /* ApiBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DA992A82381F002084B2 /* ApiBoxApp.swift */; };
-		6EF3DA9C2A82381F002084B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DA9B2A82381F002084B2 /* ContentView.swift */; };
+		6EF3DA9C2A82381F002084B2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DA9B2A82381F002084B2 /* MainView.swift */; };
 		6EF3DA9E2A823825002084B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3DA9D2A823825002084B2 /* Assets.xcassets */; };
 		6EF3DAA12A823825002084B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3DAA02A823825002084B2 /* Preview Assets.xcassets */; };
+		6EF3DAA82A8238E8002084B2 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAA72A8238E8002084B2 /* View+Extension.swift */; };
+		6EF3DAAA2A8238FC002084B2 /* ListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAA92A8238FC002084B2 /* ListViewItem.swift */; };
+		6EF3DAAC2A823920002084B2 /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAAB2A823920002084B2 /* ApiModel.swift */; };
+		6EF3DAB02A823968002084B2 /* ApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3DAAF2A823968002084B2 /* ApiView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6EC8F85E2A837117003575D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF3DA8E2A82381F002084B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC8F8552A837117003575D5;
+			remoteInfo = harFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EC8F84B2A835532003575D5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6EC8F8602A837117003575D5 /* harFiles.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6EC8F8562A837117003575D5 /* harFiles.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = harFiles.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC8F8582A837117003575D5 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		6EC8F85B2A837117003575D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		6EC8F85D2A837117003575D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC8F8672A84EB78003575D5 /* ApiBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApiBox.entitlements; sourceTree = "<group>"; };
+		6EC8F8682A84EECD003575D5 /* harFiles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = harFiles.entitlements; sourceTree = "<group>"; };
 		6EF3DA962A82381F002084B2 /* ApiBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF3DA992A82381F002084B2 /* ApiBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBoxApp.swift; sourceTree = "<group>"; };
-		6EF3DA9B2A82381F002084B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EF3DA9B2A82381F002084B2 /* MainView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		6EF3DA9D2A823825002084B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EF3DAA02A823825002084B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EF3DAA72A8238E8002084B2 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		6EF3DAA92A8238FC002084B2 /* ListViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewItem.swift; sourceTree = "<group>"; };
+		6EF3DAAB2A823920002084B2 /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		6EF3DAAF2A823968002084B2 /* ApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6EC8F8532A837117003575D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EF3DA932A82381F002084B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC8F8572A837117003575D5 /* harFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6EC8F8682A84EECD003575D5 /* harFiles.entitlements */,
+				6EC8F8582A837117003575D5 /* ShareViewController.swift */,
+				6EC8F85A2A837117003575D5 /* MainInterface.storyboard */,
+				6EC8F85D2A837117003575D5 /* Info.plist */,
+			);
+			path = harFiles;
+			sourceTree = "<group>";
+		};
 		6EF3DA8D2A82381F002084B2 = {
 			isa = PBXGroup;
 			children = (
 				6EF3DA982A82381F002084B2 /* ApiBox */,
+				6EC8F8572A837117003575D5 /* harFiles */,
 				6EF3DA972A82381F002084B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				6EF3DA962A82381F002084B2 /* ApiBox.app */,
+				6EC8F8562A837117003575D5 /* harFiles.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +115,15 @@
 		6EF3DA982A82381F002084B2 /* ApiBox */ = {
 			isa = PBXGroup;
 			children = (
+				6EC8F8672A84EB78003575D5 /* ApiBox.entitlements */,
 				6EF3DA992A82381F002084B2 /* ApiBoxApp.swift */,
-				6EF3DA9B2A82381F002084B2 /* ContentView.swift */,
+				6EF3DA9B2A82381F002084B2 /* MainView.swift */,
 				6EF3DA9D2A823825002084B2 /* Assets.xcassets */,
+				6EF3DAA72A8238E8002084B2 /* View+Extension.swift */,
 				6EF3DA9F2A823825002084B2 /* Preview Content */,
+				6EF3DAA92A8238FC002084B2 /* ListViewItem.swift */,
+				6EF3DAAB2A823920002084B2 /* ApiModel.swift */,
+				6EF3DAAF2A823968002084B2 /* ApiView.swift */,
 			);
 			path = ApiBox;
 			sourceTree = "<group>";
@@ -70,6 +139,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6EC8F8552A837117003575D5 /* harFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC8F8612A837117003575D5 /* Build configuration list for PBXNativeTarget "harFiles" */;
+			buildPhases = (
+				6EC8F8522A837117003575D5 /* Sources */,
+				6EC8F8532A837117003575D5 /* Frameworks */,
+				6EC8F8542A837117003575D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harFiles;
+			productName = harFiles;
+			productReference = 6EC8F8562A837117003575D5 /* harFiles.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		6EF3DA952A82381F002084B2 /* ApiBox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EF3DAA42A823825002084B2 /* Build configuration list for PBXNativeTarget "ApiBox" */;
@@ -77,10 +163,12 @@
 				6EF3DA922A82381F002084B2 /* Sources */,
 				6EF3DA932A82381F002084B2 /* Frameworks */,
 				6EF3DA942A82381F002084B2 /* Resources */,
+				6EC8F84B2A835532003575D5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6EC8F85F2A837117003575D5 /* PBXTargetDependency */,
 			);
 			name = ApiBox;
 			productName = ApiBox;
@@ -97,6 +185,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					6EC8F8552A837117003575D5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					6EF3DA952A82381F002084B2 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -116,11 +207,20 @@
 			projectRoot = "";
 			targets = (
 				6EF3DA952A82381F002084B2 /* ApiBox */,
+				6EC8F8552A837117003575D5 /* harFiles */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6EC8F8542A837117003575D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC8F85C2A837117003575D5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EF3DA942A82381F002084B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +233,106 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6EC8F8522A837117003575D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC8F8592A837117003575D5 /* ShareViewController.swift in Sources */,
+				6EC8F8652A837146003575D5 /* ApiModel.swift in Sources */,
+				6EC8F8662A83716C003575D5 /* View+Extension.swift in Sources */,
+				6EC8F8642A837143003575D5 /* ApiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EF3DA922A82381F002084B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EF3DA9C2A82381F002084B2 /* ContentView.swift in Sources */,
+				6EF3DA9C2A82381F002084B2 /* MainView.swift in Sources */,
+				6EF3DAA82A8238E8002084B2 /* View+Extension.swift in Sources */,
 				6EF3DA9A2A82381F002084B2 /* ApiBoxApp.swift in Sources */,
+				6EF3DAB02A823968002084B2 /* ApiView.swift in Sources */,
+				6EF3DAAA2A8238FC002084B2 /* ListViewItem.swift in Sources */,
+				6EF3DAAC2A823920002084B2 /* ApiModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6EC8F85F2A837117003575D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC8F8552A837117003575D5 /* harFiles */;
+			targetProxy = 6EC8F85E2A837117003575D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EC8F85A2A837117003575D5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC8F85B2A837117003575D5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		6EC8F8622A837117003575D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = harFiles/harFiles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 382F8LN5GT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = harFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = harFiles;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cddchen.ApiBox.harFiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EC8F8632A837117003575D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = harFiles/harFiles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 382F8LN5GT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = harFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = harFiles;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cddchen.ApiBox.harFiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6EF3DAA22A823825002084B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -197,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -267,25 +455,33 @@
 		6EF3DAA52A823825002084B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ApiBox/ApiBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApiBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 382F8LN5GT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.cdd.ApiBox;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cddchen.ApiBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,25 +491,33 @@
 		6EF3DAA62A823825002084B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ApiBox/ApiBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApiBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 382F8LN5GT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.cdd.ApiBox;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cddchen.ApiBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +527,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6EC8F8612A837117003575D5 /* Build configuration list for PBXNativeTarget "harFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC8F8622A837117003575D5 /* Debug */,
+				6EC8F8632A837117003575D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EF3DA912A82381F002084B2 /* Build configuration list for PBXProject "ApiBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

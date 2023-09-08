@@ -11,7 +11,7 @@ import SwiftUI
 struct ApiBoxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
