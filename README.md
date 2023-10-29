@@ -4,7 +4,7 @@
 - [x] 显示request
 - [x] 显示response
 - [x] 支持保存分享的http请求
-- [ ] 桌面widget小组件显示
+- [x] 桌面widget小组件显示
 - [ ] 桌面widget小组件调用
 
 <div style="display: inline-block; text-align: center; margin-right: 10px;">
@@ -42,3 +42,16 @@
   <br>
   <span>updated_mainview.png</span>
 </div>
+
+<div style="display: inline-block; text-align: center;">
+  <img src="assets/HomeWidget.png" width="400" />
+  <br>
+  <span>HomeWidget.png</span>
+</div>
+
+<div style="display: inline-block; text-align: center;">
+  <img src="assets/WidgetDetail.png" width="400" />
+  <br>
+  <span>WidgetDetail.png</span>
+</div>
+

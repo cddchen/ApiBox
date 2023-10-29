@@ -14,7 +14,6 @@
 
 import SwiftUI
 
-// 1. Create a custom key for AppStorage
 extension UserDefaults {
     static let storedRequestsKey = "storedRequests"
 }
@@ -22,8 +21,6 @@ extension UserDefaults {
 struct MainView: View {
     @State private var showApiView = false
     @State private var req: Request?
-    
-    // 2. Replace @State with @AppStorage
     @AppStorage(UserDefaults.storedRequestsKey, store: UserDefaults(suiteName: "group.cn.cdd.harFile"))
     var storedRequestsData: Data = Data()
     
@@ -47,11 +44,16 @@ struct MainView: View {
             }
             .vSpacing(.top)
             .navigationTitle("Main")
-            // 4. Optional: Add a refresh button
             .navigationBarItems(trailing: Button("Refresh", action: refreshData))
         }
         .navigationViewStyle(StackNavigationViewStyle())
         .onAppear(perform: refreshData)
+        .onOpenURL() { url in
+          guard url.scheme == "cn.cddchen.ApiBox" else {
+            return
+          }
+          
+        }
     }
     
     func refreshData() {
@@ -63,6 +65,6 @@ struct MainView: View {
     }
 }
 
-#Preview {
-  MainView()
-}
+//#Preview {
+//  MainView()
+//}

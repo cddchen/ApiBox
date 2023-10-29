@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2D2BB4BE-8FB1-4DF9-8865-8905EF001C7D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ApiBox/MainView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "2D2BB4BE-8FB1-4DF9-8865-8905EF001C7D - 424beb72ab1024a9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ApiBox.MainView.init() -&gt; ApiBox.MainView"
-                  moduleName = "ApiBox"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cdd/Downloads/ApiBox/ApiBox/MainView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "362">
-               </Location>
-               <Location
-                  uuid = "2D2BB4BE-8FB1-4DF9-8865-8905EF001C7D - 97e5706bec43336d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ApiBox.MainView.init(showApiView: Swift.Bool, data: Foundation.Data) -&gt; ApiBox.MainView"
-                  moduleName = "ApiBox"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cdd/Downloads/ApiBox/ApiBox/MainView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "355">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "087A5C72-1EC6-4266-94DF-D4F3DD303F17"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -66,6 +18,22 @@
             endingLineNumber = "52"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89222816-EEE6-40E2-BE1F-EA9F59C2FF9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ApiWidget/ApiWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ApiWidgetEntryView"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
